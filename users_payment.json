@@ -1,0 +1,112 @@
+[
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$yYpCXRsLd9qd2plTN1vAoD$Jgn8sN72sibBv4GFszMXosxR5Dz/Qo4Cwuue93JrIZA=",
+      "last_login": "2024-09-26T13:12:44.301Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-09-26T13:11:57.860Z",
+      "email": "admin@example.com",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$wGu7GDr4y6fGFh8z0EsjGk$9igGGtWSt3EkbXpcG0Re1W3QM+TXmoBm/nucSi8TcWU=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-30T13:03:48Z",
+      "email": "test@test.ru",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$U4w1eV97QFVAZhWAocSG4i$xYuQzpTkxkKqAEB8c9T/sxCLsZSJaCpFL6kkyz7kd1M=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-09-30T17:58:39.111Z",
+      "email": "test2@test2.ru",
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 1,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-09-26",
+      "payment_course": 1,
+      "payment_lesson": null,
+      "cost": 1000,
+      "payment_method": "cash"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-09-26",
+      "payment_course": null,
+      "payment_lesson": 1,
+      "cost": 100,
+      "payment_method": "non_cash"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-09-26",
+      "payment_course": 3,
+      "payment_lesson": null,
+      "cost": 1000,
+      "payment_method": "non_cash"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-09-26",
+      "payment_course": null,
+      "payment_lesson": 2,
+      "cost": 100,
+      "payment_method": "cash"
+    }
+  }
+]
